@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mapamundiblanco"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="479dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="68dp">
+
+        <RadioButton
+            android:id="@+id/es"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#000000"
+            android:text="ESPAÑA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/ur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URUGUAY"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/ug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UGANDA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/tz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TANZANIA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/mex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEXICO"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/ko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KOREA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/sa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUDÁFRICA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/br"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BRASIL"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/fr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRANCIA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITALIA"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="185dp" />
+</LinearLayout>

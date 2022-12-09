@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mapamundiblanco"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvpais"
+        android:layout_width="189dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="116dp"
+        android:paddingTop="40dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvhab"
+        android:layout_width="320dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="220dp"
+        android:paddingTop="65dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
