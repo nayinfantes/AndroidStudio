@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AGENDA</string>
+    <string name="contacto">Introduzca el nombre </string>
+    <string name="telefono">Introduzca el teléfono</string>
+    <string name="archivo">Introduzca el nombre del fichero</string>
+    <string name="mostrar">Los resultados de su búsqueda aparecerán aquí</string>
+</resources>
+
+
+
+
