@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/login" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName"
+        android:layout_margin="40dp"
+        android:id="@+id/User" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_margin="40dp"
+        android:id="@+id/Pass" />
+
+    <ImageButton
+        android:id="@+id/acceso"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/acceso"
+        android:onClick="acceso" />
+
+
+    <ImageButton
+        android:id="@+id/registro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="80dp"
+        android:layout_weight="1"
+        android:background="@drawable/registro"
+        android:onClick="pagRegistro" />
+</LinearLayout>

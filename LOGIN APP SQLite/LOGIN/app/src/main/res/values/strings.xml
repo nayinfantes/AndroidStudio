@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LOGIN APP</string>
+    <string name="login">LOGIN</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="password2">Repetir contraseña</string>
+    <string name="boton3">CONFIRMAR</string>
+    <string name="form">Formulario de registro</string>
+    <string name="mensaje1">BIENVENIDO</string>
+    <string name="mensaje2">¡Ten un buen día!</string>
+</resources>

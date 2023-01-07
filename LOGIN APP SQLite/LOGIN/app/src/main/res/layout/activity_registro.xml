@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registro">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/user" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName"
+        android:layout_margin="40dp"
+        android:id="@+id/Us" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_margin="40dp"
+        android:id="@+id/Pas" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/password2"
+        android:inputType="textPassword"
+        android:layout_margin="40dp"
+        android:id="@+id/Pas2" />
+
+    <ImageButton
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/guardar"
+        android:onClick="Registrar" />
+
+</LinearLayout>
